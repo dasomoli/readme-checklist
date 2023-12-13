@@ -1,6 +1,7 @@
 # README 체크리스트 [원문](https://github.com/ddbeck/readme-checklist)
 
 by [다니엘 D. 벸](https://twitter.com/ddbeck)
+
 번역 by [양정석](https://blog.dasomoli.org)
 
 [checklist.md는](checklist.md)는 독자가 프로젝트에 대해 자신감을 가질 수 있도록 도와주는
