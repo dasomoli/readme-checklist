@@ -1,185 +1,164 @@
-# README Checklist
+# README 체크리스트
 
-See [README.md](README.md) to learn how to use this checklist.
-
-
-## Help the reader identify the project
-
-* **Name the file**:
-
-  * *READMEs without markup:* Name the file `README` or `README.txt`.
-
-  * *READMEs with markup:* Name the file `README.extension`, where
-    *extension* is a file extension that corresponds to your markup language
-    (such as `md` for Markdown or `rst` for reStructuredText).
-
-* At the top of the file, **make sure the project's name is the first heading
-  or plain text**.
-
-* Under the project name or linked from it, **add a URL for the project**
-  (such as repository or homepage URL).
-
-* Under the project name, **clearly identify the owner or author of the
-  project** (e.g., "By Author McAuthorface" or "Copyright Owner Name 2018").
+이 체크리스트의 사용 방법을 알아보려면 [README.md](README.md)를 참조하세요.
 
 
-## Help the reader evaluate the project
+## 독자가 프로젝트를 식별할 수 있도록 도와주세요.
 
-* **Describe the project in terms of what the project does or
-  achieves**, not what it's made out of. Focus on *why* not *what*.
+* **파일 이름을 지정합니다**:
 
-  *This is the hardest part of writing a README.* Try some of these Mad Libs to
-  get started:
+  * *마크업 없는 README:* 파일 이름을 `README` 또는 `README.txt`로 지정합니다.
 
-  * `With <PROJECT NAME> you can <VERB> <PLURAL NOUN>…`
-  * `<PROJECT NAME> helps you _____…`
-  * `If you use <PROJECT NAME> then you _____…`
-  * `You'll like <PROJECT NAME> because you can _____…`
-  * `<PROJECT NAME> is better than <ALTERNATIVE PROJECT> because you can
-    _____…`
-  * `<PROJECT NAME> is related to <OTHER PROJECT> because _____…`
+  * *마크업이 있는 README*: *확장자*는 마크업 언어에 해당하는 파일 확장자(예: 마크다운의 경우 `md`,
+    reStructuredText의 경우 `rst`)를 사용하여 파일 이름을 `README.확장자`로 지정합니다.
 
-  If the project is new or doesn't have an intended use, tell an origin story
-  instead:
+* 파일 상단에서 **프로젝트 이름이 첫 번째 제목 또는 일반 텍스트인지 확인합니다**.
 
-  > `One day I was _____. I tried to _____ but _____. Instead, I
-  made <PROJECT NAME> to _____.`
+* 프로젝트 이름 아래 또는 프로젝트 이름에서 연결된 링크에 **프로젝트의 URL(예: 리포지토리 또는
+  홈페이지 URL)을 추가**합니다.
 
-  Or you can try inverting the description, describing what your project is
-  *not* good for.
-
-  Other tips:
-
-  * Write to your reader in the second person (you)
-  * Use action verbs and avoid the passive voice (e.g., write
-    `<PROJECT NAME> creates files` instead of `Files are created by <PROJECT
-    NAME>`)
-  * Avoid the verbs *to be*, *to have*, and (sometimes) *to get*
-  * Avoid acronyms and initialisms
-
-  **Warning**: You may be tempted to describe how the project is made—what
-               languages, technologies, and tools—instead of what the project
-               does. That's sometimes useful information, but save it until
-               *after* you've described how the project is supposed to help the
-               reader.
-
-* **Describe who may use the project and under what terms.**
-
-  * *Open-source projects*:
-
-    Describe then name the license. For example:
-
-    > You are free to copy, modify, and distribute `<PROJECT NAME>` with
-    > attribution under the terms of the MIT license. See the `LICENSE` file
-    > for details.
-
-    For inspiration for talking about licenses, see the Creative Commons
-    human-readable license summaries, such as
-    [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
-
-  * *Closed-source projects*:
-
-    Describe who may use and distribute the project. For publicly available
-    projects, you may reference an EULA or other licensing document.
-
-    For private or internal projects, you may want to explicitly allow or deny
-    public disclosure of the project. For example:
-
-    > You may only use `<PROJECT NAME>` for internal BigCorp projects.
+* 프로젝트 이름 아래에 **프로젝트의 소유자 또는 작성자를 명확하게 표시합니다** (예: "By 저자 McAuthorface"
+  또는 "Copyright 소유자 이름 2018").
 
 
-## Help the reader use the project
+## 독자가 프로젝트를 평가할 수 있도록 도와주세요.
 
-* If applicable, **list the project's prerequisites**.
+* 프로젝트의 구성 요소가 아닌 **프로젝트가 수행하거나 달성하는 것을 중심으로 프로젝트를 설명하세요**.
+  *무엇*이 아닌 *왜*에 집중하세요.
 
-  Your project may require things that are out of the scope of ordinary
-  installation or usage instructions. List these requirements before or at the
-  beginning of such instructions. For example, you may require a version of
-  Python, but you don't need to include instructions for how to install it.
+  *이것이 README를 작성할 때 가장 어려운 부분입니다.* 시작하는데 이 끝내주는 라이브러리 중 몇 가지를 시도해 보세요:
 
-  For example:
+  * `<프로젝트 이름>으로 여러분은 <복수 명사>…을 <동사> 할 수 있습니다.`
+  * `<프로젝트 이름>은 여러분을 _____… 돕습니다.`
+  * `여러분이 <프로젝트 이름>을 사용한다면 여러분은 _____…`
+  * `여러분이 _____… 할 수 있기 때문에 여러분은 <프로젝트 이름>을 좋아할 겁니다.`
+  * `여러분이 _____… 할 수 있기 때문에 <프로젝트 이름>은 <다른 대안 프로젝트> 보다 더 좋습니다.`
+  * `<프로젝트 이름>은 _____… 때문에 <다른 프로젝트>와 관련이 있습니다.`
 
-  > Before installing `<PROJECT NAME>` you need:
+  프로젝트가 새 프로젝트이거나 용도가 정해져 있지 않은 경우, 대신 기원이 되는 이야기를 설명하세요:
+
+  > `어느 날 저는 _____였습니다. _____ 을 시도했지만 _____. 대신 <프로젝트 이름>을 _____ 을 하려고
+  만들었습니다.`
+
+  또는 설명을 뒤집어 프로젝트의 *단점*을 설명해 볼 수도 있습니다.
+
+  다른 팁:
+  * 독자에게 2인칭(여러분)으로 쓰기
+  * 동작 동사를 사용하고 수동태를 피하세요(예: `<프로젝트 이름>에 의해 파일이 생성됩니다` 대신
+    `<프로젝트 이름>이 파일을 만듭니다`로 작성).
+  * 동사 to be, to have 및 (때때로) to get을 피하세요.
+  * 약어와 이니셜을 피하세요.
+
+  **경고**: 프로젝트가 하는 일 대신 프로젝트가 어떻게 만들어졌는지, 즉 어떤 언어, 기술, 도구를 사용했는지
+           설명하고 싶을 수 있습니다. 때로는 유용한 정보이지만, 프로젝트가 독자에게 어떤 도움을 줄 수
+           있는지 설명한 후에 설명하세요.
+
+
+* 누가 어떤 조건으로 프로젝트를 사용할 수 있는지 설명합니다.
+
+  * *오픈소스 프로젝트*:
+
+    설명한 다음 라이선스 이름을 지정합니다. 예를 들어
+
+    > `<프로젝트 이름>`을 저작자 표시와 함께 자유롭게 복사, 수정 및 배포할 수 있습니다.
+    > 이는 MIT 라이선스 조건에 따릅니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
+
+    라이선스에 대해 이야기할 때 영감을 얻으려면 [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)과
+    같은 크리에이티브 커먼즈 사람이 읽을 수 있는 라이선스 요약을 참조하세요.
+
+  * *비공개 소스 프로젝트*:
+
+    누가 프로젝트를 사용하고 배포할 수 있는지 설명합니다. 공개적으로 사용할 수 있는 프로젝트의 경우
+    EULA 또는 기타 라이선스 문서를 참조할 수 있습니다.
+
+    비공개 또는 내부 프로젝트의 경우, 프로젝트의 공개를 명시적으로 허용하거나 거부할 수 있습니다.
+    예를 들어
+
+    > `<프로젝트 이름>`은 내부 BigCorp 프로젝트에만 사용할 수 있습니다.
+
+
+## 독자가 프로젝트를 사용할 수 있도록 도와주세요.
+
+* 해당되는 경우 프로젝트의 전제 조건을 나열합니다.
+
+  프로젝트에 따라 일반적인 설치 또는 사용 지침의 범위를 벗어나는 사항이 필요할 수 있습니다. 이러한
+  요구 사항은 해당 지침의 앞부분이나 시작 부분에 나열하세요. 예를 들어, Python 버전이 필요할 수
+  있지만 설치 방법에 대한 지침을 포함할 필요는 없습니다.
+
+  예를 들어
+
+  > `<프로젝트 이름>`을 설치하기 전에 다음이 필요합니다:
   >
   > * Git
-  > * Python 2.7 or later
+  > * Python 2.7 이상
 
-  If you're feeling especially generous, link to those projects' setup
-  instructions or websites.
+  더 많은 도움이 필요하다면 해당 프로젝트의 설치 지침이나 웹사이트를 링크하세요.
 
-* **List the steps to install and use the project one time.**
+* **프로젝트 설치 및 사용 단계를 한 번만 나열하세요.**
 
-  Help the reader go from having your project's files to using the project for
-  the first time. For a programming language, this might be installation
-  followed by running a "hello world" program. For a documentation project this
-  might be building the site and opening the homepage in a web browser. For a
-  README-only project, this might be a preface or introduction.
+  독자가 프로젝트 파일을 가지고 있는 상태에서 프로젝트를 처음 사용하는 단계로 넘어갈 수 있도록
+  도와주세요. 프로그래밍 언어의 경우, 설치 후 "헬로 월드" 프로그램을 실행할 수 있습니다. 문서화
+  프로젝트의 경우 사이트를 구축하고 웹 브라우저에서 홈페이지를 여는 것일 수 있습니다.
+  README 전용 프로젝트의 경우 서문 또는 소개가 될 수 있습니다.
 
-  No matter how your project runs, however, stop once the project works once.
-  Extended usage instructions belong in dedicated documentation files, not
-  your README.
+  그러나 프로젝트가 어떻게 실행되든 프로젝트가 한 번 작동하면 중단하세요. 확장된 사용 설명은
+  README가 아닌 전용 문서 파일에 포함되어야 합니다.
 
-* **Test your install and setup steps.**
+* **설치 및 설정 단계를 테스트하세요.**
 
-  There's nothing to write down for this, but be sure what you've already
-  written actually works.
+  이를 위해 따로 기록할 필요는 없지만, 이미 작성한 내용이 실제로 작동하는지 확인하세요.
 
 
-## Help the reader engage with the project
+## 독자의 프로젝트 참여 유도
 
-* **Tell your audience where to go for more project documentation.**
+* **더 많은 프로젝트 문서를 보려면 어디로 가야 하는지 다른 사람들에게 알려주세요.**
 
-  Describe any additional documentation and where to find it.
+  추가 문서가 있으면 어디서 찾을 수 있는지 설명하세요.
 
-  This may include your project's:
+  여기에는 프로젝트의 문서가 포함될 수 있습니다:
 
-  * Website
-  * Documentation files
-  * Man page
-  * Help command(s)
-  * Top-level README companion files, such as `LICENSE`, `CONTRIBUTING`,
-    `CODE_OF_CONDUCT`, `AUTHORS`, `CHANGELOG`, and `BUGS`
+  * 웹사이트
+  * 문서 파일
+  * 맨 페이지
+  * 도움말 명령어
+  * 최상위 README와 따라 다니는 파일(예: `LICENSE`, `CONTRIBUTING`,
+    `CODE_OF_CONDUCT`, `AUTHORS`, `CHANGELOG`, 와 `BUGS`)
 
-  It's not enough to link to documents; briefly describe them too.
+  문서에 링크하는 것만으로는 충분하지 않습니다. 간략하게 설명하세요.
 
-* **Tell your audience where to go for help.**
+* **다른 사람들에게 도움을 받을 수 있는 곳을 알려주세요.**
 
-  This may include descriptions and links to mailing lists, issue trackers,
-  forums, email addresses, or other support avenues (like Stack Overflow tags).
+  여기에는 메일링 리스트, 이슈 트래커, 포럼, 이메일 주소 또는 기타 지원 수단(스택 오버플로 태그 등)에
+  대한 설명과 링크가 포함될 수 있습니다.
 
-  If the project is unsupported or support is only available for a fee, now
-  would be a good time to mention that.
+  프로젝트가 지원되지 않거나 유료로만 지원이 가능하다면 지금이 바로 그 사실을 언급하기에 좋은 시기입니다.
 
-* **Tell your audience how to help.**
+* **다른 사람들에게 도움을 줄 수 있는 방법을 알려주세요.**
 
-  * *Open-source projects*: link to and summarize the project's contributor's
-    guide, if one exists, or describe how and where you want contributors to
-    add to your project (e.g., via GitHub pull requests or patches mailed
-    to a specific address).
+  * *오픈 소스 프로젝트*: 프로젝트의 기여자 가이드가 있는 경우 해당 가이드를 링크하고 요약하거나,
+    기여자가 프로젝트에 추가할 수 있는 방법과 위치를 설명합니다(예: GitHub 풀 리퀘스트 또는 특정
+    주소로 발송된 패치를 통해).
 
-    *See also*: [nayafia/contributing-template](
+    *참고*: [nayafia/contributing-template](
     https://github.com/nayafia/contributing-template/)
 
-  * *Closed-source projects*: describe how and where bugs should be reported.
+  * *비공개 소스 프로젝트*: 버그를 보고하는 방법과 위치를 설명하세요.
 
-## Final checks
+## 최종 확인
+* **README가 길면 프로젝트 설명 뒤에 목차를 추가하세요.**
 
-* **If your README is long, add a table of contents** after your project
-  description.
+  README의 길이가 서너 화면을 넘는 경우 목차를 추가하여 쉽게 훑어볼 수 있도록 하세요. 섹션 제목
+  목록이면 충분합니다.
 
-  If your README is more than three or four screens long, make it easier to
-  skim by adding a table of contents. A list of section headings is enough.
+* **README가 매우 길면 콘텐츠를 다른 문서로 옮기세요.**
 
-* **If your README is very long, move content to other documents.**
+  README가 10~12개 화면 이상이면 내용을 별도의 문서로 옮기세요. README 파일을 짧게 작성하지
+  않으면 독자들이 부담을 느낄 수 있습니다. 포괄적인 README는 나쁜 README입니다.
 
-  If your README is more than ten or twelve screens long, move stuff into
-  separate documents. Keep your README file short, or readers may become
-  overwhelmed. A comprehensive README is a bad README.
+  이 체크리스트에서 다루지 않는 주제는 별도의 문서로 만들어야 할 가능성이 높습니다. 예를 들어,
+  버전 기록은 `CHANGELOG` 또는 `RELEASES` 파일로 옮기고 새 파일에 대한 링크로 대체할 수
+  있습니다.
 
-  Topics not covered by this checklist are likely candidates for becoming
-  separate documents. For example, version histories can be moved to a
-  `CHANGELOG` or `RELEASES` file and replaced with a link to the new file.
+* **몇 주 후에 README와 이 체크리스트를 검토하도록 알림을 설정하세요.**
 
-* **Set a reminder to review your README and this checklist in a few weeks**.
-
-* **Tell [ddbeck](https://github.com/ddbeck/) that you used this checklist.** You can [tweet at him](https://twitter.com/ddbeck/) or open an issue on [ddbeck/readme-checklist](https://github.com/ddbeck/readme-checklist/issues).
+* **이 체크리스트를 사용했다고 [ddbeck](https://github.com/ddbeck/)에게 알립니다.** 그에게 [트윗을 보내거나](https://twitter.com/ddbeck/) [ddbeck/readme-checklist](https://github.com/ddbeck/readme-checklist/issues)에서 이슈를 열 수 있습니다.
