@@ -32,7 +32,7 @@ https://github.com/dasomoli/readme-checklist/blob/main/checklist.md
 
 이 체크리스트는 *읽고 하는 READ-DO* 체크리스트입니다. 새 README 파일을 시작하는 경우 레시피처럼
 체크리스트를 따라 각 단계를 순서대로 읽고 완료하세요. 또는 이미 README 파일을 시작한 경우에는 이
-체크리스트를 *허고 확인하는 DO-CONFIRM* 체크리스트로 간주하여 작성을 완료한 후 README가 체크리스트의
+체크리스트를 *하고 확인하는 DO-CONFIRM* 체크리스트로 간주하여 작성을 완료한 후 README가 체크리스트의
 요소와 일치하는지 확인하는 것이 유용할 수 있습니다.
 
 몇 가지 예외를 제외하고, 체크리스트는 README에 표시되는 순서나 문서화 중인 프로젝트의 종류와 무관합니다.
