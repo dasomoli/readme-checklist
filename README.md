@@ -4,7 +4,7 @@ by [다니엘 D. 벸](https://twitter.com/ddbeck)
 
 번역 by [양정석](https://blog.dasomoli.org)
 
-[checklist.md는](checklist.md)는 독자가 프로젝트에 대해 자신감을 가질 수 있도록 도와주는
+[checklist.md](checklist.md)는 독자가 프로젝트에 대해 자신감을 가질 수 있도록 도와주는
 README 파일을 작성하는 데 도움이 되는 체크리스트입니다. 체크리스트에 따라 README를 작성하면 독자가
 프로젝트를 더 쉽게 식별하고, 평가하고, 사용하고, 참여할 수 있습니다. README 템플릿과 달리 이
 체크리스트는 파일에서 가장 먼저 표시되는 내용뿐만 아니라 가장 중요한 내용을 먼저 작성하는 데 도움이
